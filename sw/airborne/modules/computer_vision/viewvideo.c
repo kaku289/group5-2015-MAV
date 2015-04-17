@@ -284,12 +284,7 @@ else
 puts("Don't know what to do");
 dum=nav_set_heading_deg(mypsi-180);
 }
-//printf("%f\t%f\n",stateGetPositionEnu_f()->x, stateGetPositionEnu_f()->y);
-//waypoints[5].x = waypoints[5].x + (int)(100*sin(3.14/2));//(int)(100*sin(mypsi*3.14/180.0));
-//waypoints[5].y = waypoints[5].y + (int)(100*cos(3.14/2));//(int)(100*cos(mypsi*3.14/180.0));
 
-//waypoints[5].x = waypoints[5].x + 40;
-//waypoints[5].x = mypos.x + (int)100*sin(1.7);
 
 //uint8_t wp_id="WP_GOAL";
 //waypoints[wp_id].x = waypoints[wp_id].x + 130;
